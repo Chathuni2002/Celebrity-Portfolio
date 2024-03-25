@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zendaya | NEWSLETTER</title>
+    <!--Google Fonts-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Agbalumo|Signika|Catamaran"
+    />
+    <link rel="icon" type="image/x-icon" href="Images/flower.png" />
+    <link rel="stylesheet" href="ZendayaStyleSheet.css" />
+    <link rel="stylesheet" href="MediaQueries.css" />
+  </head>
+
+  <body>
+    <!--Navigation Bar-->
+    <nav>
+      <input type="checkbox" id="menuChecked" />
+      <!--Explicit Labels-->
+      <label for="menuChecked" class="menuCheckButton">
+        <img src="Images/Menu2.png" alt="menu icon" class="menuIcon" />
+      </label>
+      <a href="Home.html">
+        <img src="Images/logo1.png" alt="logo" class="Logo" />
+      </a>
+      <ul class="pagelinks">
+        <li><a href="Home.html">HOME</a></li>
+        <li><a href="About.html">ABOUT</a></li>
+        <li><a href="Blog.html">BLOG</a></li>
+        <li><a target="activeNow" href="NewsLetter.html">NEWSLETTER</a></li>
+      </ul>
+    </nav>
+
+    <div class="wrapper">
+      <div class="boxes">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <main class="NLmain">
+      <div id="NLtitle">
+        <p>Let's get in</p>
+        <p>touch...</p>
+      </div>
+      <form
+        action="mailto:chathunigunasena@gmail.com"
+        method="post"
+        enctype="text/plain"
+        class="formGrid"
+      >
+        <fieldset>
+          <input
+            type="text"
+            name="UserName"
+            id="UserName"
+            placeholder="Enter Name"
+            required
+          />
+        </fieldset>
+        <fieldset>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter Email"
+            required
+          />
+        </fieldset>
+        <fieldset>
+          <input
+            type="tel"
+            name="tel"
+            id="tel"
+            placeholder="Enter Phone Number"
+            required
+          />
+        </fieldset>
+        <fieldset>
+          <textarea
+            name="description"
+            rows="8"
+            placeholder="What are your thoughts..."
+          ></textarea>
+        </fieldset>
+        <button type="submit" name="submit" id="nextStep">Submit</button>
+        <!--<fieldset>
+          <button type="submit" name="submit" id="nextStep">Submit</button>
+        </fieldset>-->
+      </form>
+    </main>
+  </body>
+</html>
